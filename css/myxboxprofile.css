@@ -1,0 +1,43 @@
+/* My Xbox Profile CSS 	*/
+
+
+/* The Gamercard Holder **************************************************/
+#xboxgamercard { position: relative; width: 210px; background: #F7F7F7; border: 2px solid #D7D7D7; margin: 0 0 20px 0; }
+
+/* Gamer Pic *************************************************************/
+#xboxgamercard #xboxgamercard_tileurl { position: absolute; top: 10px; left: 10px; border: 2px solid #D7D7D7; padding: 1px; } 
+
+/* List of Gamerdetails **************************************************/
+#xboxgamercard #gamerinfo { height: 100px; list-style: none; font-size: 14px; color: #444; }
+
+/* Gamertag **************************************************************/
+#xboxgamercard ul #xboxgamercard_gamertag { position: absolute; top: 3px; left: 90px; }
+		
+/* Recent Activity *******************************************************/
+#xboxgamercard ul #xboxgamercard_info { position: absolute; top: 28px; left: 90px; font-size: 10px; }
+		
+/* Recent Activity Game **************************************************/
+#xboxgamercard ul #xboxgamercard_moreinfo { position: absolute; top: 45px; left: 90px; font-size: 10px; }
+
+/* Gamerzone *************************************************************/
+#xboxgamercard ul #xboxgamercard_zone { position: absolute; top: 83px; left: 30px; width: 210px; text-align: center; font-size: 12px; }
+
+/* Gamerscore ************************************************************/
+#xboxgamercard ul li #xboxgamercard_gamerscore { font-size: 12px; padding: 0 0 0 10px; }
+
+/* Recent Game Details List***********************************************/
+#xboxgamercard #xboxgamercard_gameholder .xboxgamercard_gamedetails { clear: left; width: 210px; top: 165px; left: 0; }
+
+/* Recent Game Image *****************************************************/
+#xboxgamercard .show_gamedetails { float: left; margin: 5px 5px 10px 5px; }
+
+/* Recent Game Holder ****************************************************/
+#xboxgamercard #xboxgamercard_gameholder { padding: 10px; }
+
+/* Recent Game Achievements **********************************************/
+#xboxgamercard #xboxgamercard_gameholder #xboxgamercard_achievements { font-size: 10px; padding: 5px 0 0 0; margin: 0 10px 0 0; }
+
+/* Recent Game Score *****************************************************/
+#xboxgamercard #xboxgamercard_gameholder #xboxgamercard_gamerscore { font-size: 10px; padding: 5px 0; margin: 0 10px 0 0; }
+
+/* End */
